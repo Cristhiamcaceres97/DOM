@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>notas</title>
+    <link rel="stylesheet" href="nota.css" />
+  </head>
+  <body>
+    <div class="todo">
+      <h1>Página de notas</h1>
+
+      <form id="form">
+        <input
+          type="text"
+          id="title"
+          placeholder="Título de la nota"
+          required
+        />
+        <textarea id="body" placeholder="Cuerpo de la nota" required></textarea>
+        <button type="submit" id="submit">Agregar nota</button>
+      </form>
+    </div>
+
+    <div id="notes"></div>
+    <script src="nota.js"></script>
+  </body>
+</html>

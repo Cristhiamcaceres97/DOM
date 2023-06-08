@@ -1,0 +1,17 @@
+/*Añade un evento dragstart a una imagen y 
+cambia el texto de un elemento con ID mensaje 
+mientras el usuario arrastra la imagen.*/
+
+#imagen {
+    margin-left: 40%;
+}
+
+.mensaje {
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
